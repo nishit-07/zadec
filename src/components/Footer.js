@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <div className="footer">
         <div className="z-logo">
-            <img  className='set-z-logo' src="logo2.png"></img>
+            <img  className='set-z-logo' src="flogo.png"></img>
             <p style={{color:"rgb(0,9,52)"}}>Zadec Elevators is well known to be one of<br/> the prominent and best elevator <br/>manufacturer in Ahmadabad, Gujarat.</p>
             <h1 style={{color:"rgb(0,9,52)"}}>Follow Us</h1>
             <div className='social'>

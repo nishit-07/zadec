@@ -1,13 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { FaArrowUp } from 'react-icons/fa';
+
 
 export default function Elevators() {
+  
   return (
     <div>
        <div className='lift-item'>
   <div className="lift">
         <div className="lift-t">
           <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Elevators</h1>
-         
+          <div className='p-ele'>
+            <p><span ><a href='#manual' >Passenger-Manual</a></span>   <span> - <a href='#Auto'> Passenger-Auto</a></span>   <span> - <a href='#Capsule'>Capsule </a></span> <span> - <a href='#Hospital'>Hospital</a></span> <span> - <a href="#Machine">Machine Roomless</a></span>  <span> - <a href='#Homelift'>Home Lift</a></span> <span> - <a href='#Hydraulic'>Hydraulic</a></span><span> - <a href='#Waiter'>DumbWaiter</a></span><span> - <a href='#Pneumatic'>Pneumatic</a></span> </p> 
+           
+          </div>
         </div>
         <div className='lift-img'>
           <img src="lift.png" style={{width:"400px",height:"300px"}}></img>
@@ -15,7 +21,7 @@ export default function Elevators() {
         </div>
   </div>
    </div>
-   <div className='p-manual'>
+   <div className='p-manual' id='manual'>
     <div className='p-img'>
     <img src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/Passenger-Elevator-Manual.png'></img></div>
     <div className='p-title'>
@@ -26,14 +32,14 @@ export default function Elevators() {
    </div>
   
   <div className='manu-ele-img'>
-      <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table1.jpg'></img>
+      <span title='Elevator chart'><img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table1.jpg'></img></span>
       </div>
       <div className='manu-ele-img2'>
-    <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p1-2-300x300.jpg'></img>
+   <span title="machine room plan"> <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p1-2-300x300.jpg'></img></span>
     </div>
     {/*  */}
 
-    <div className='p-auto'>
+    <div className='p-auto' id='Auto' title='Passenger Auto Elevator'>
       <div className='p-a-img'>
     <img src='auto design.png'></img>
     <h3 style={{marginLeft:"100px"}}>CAPACITY 04 TO 20 PASSENGER</h3></div>
@@ -42,15 +48,15 @@ export default function Elevators() {
     <p>Our Auto door elevators are also durable by design and accurate by technology. We have a wide range of these elevators which are most reliable and designed to suit every construction requirement and provide best vertical transportation solutions, with trouble-free performance and low maintenance cost. These elevators are a perfect blend of all good features of various types of elevators. These have an excellent record of customer satisfaction.</p>
     </div>
     <div className='auto-ele-img'>
-    <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table1.jpg'></img>
+    < span title="Elevator Chart"><img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table1.jpg'></img></span>
     </div>
     <div className='auto-ele-img2'>
-    <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS7r9diWNK_UKjKPXsfRbNFtjSVlsKbgUxhIpECdFnR6xibsVueNpMLGGJNBGt_HiWJuQ&usqp=CAU'></img>
+   <span title='Auto-Elevator'> <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS7r9diWNK_UKjKPXsfRbNFtjSVlsKbgUxhIpECdFnR6xibsVueNpMLGGJNBGt_HiWJuQ&usqp=CAU'></img></span>
     </div>
     </div>
    
    
-    <div className='capsule'>
+    <div className='capsule' id='Capsule' title='Capsule Elevator'>
     <div className='cap-img'>
     <img src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/Capsule-Elevators.png'></img></div>
     <div className='cap-title'>
@@ -60,13 +66,13 @@ export default function Elevators() {
     
    </div>
   <div className='cap-ele-img'>
-      <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table3-1.jpg'></img>
+    <span title='Elevator Chart'> <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table3-1.jpg'></img></span> 
       </div>
     <div className='cap-ele-img2'>
-    <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p3-1-300x300.jpg'></img>
+    <span title='Machine Room Plan'> <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p3-1-300x300.jpg'></img></span>
     </div>
     {/* hospital */}
-    <div className='hospital'>
+    <div className='hospital' id='Hospital' title='Hospital Elevator'>
       <div className='hosp-img'>
     <img src='hospital-elevator1.png'></img>
     <h3 >CAPACITY 04 TO 20 PASSENGER</h3></div>
@@ -76,16 +82,16 @@ export default function Elevators() {
     
     </div>
     
-    <div className='hosp-ele-img'>
-    <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table4.jpg'></img>
+    <div className='hosp-ele-img' >
+   <span title='Elevator Chart'> <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table4.jpg'></img></span>
     </div>
     <div className='hosp-ele-img2'>
-    <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p4-2-300x300.jpg'></img>
+    <span title='machine Room'> <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p4-2-300x300.jpg'></img></span>
     </div>
     </div>
    
 {/* mrl */}
-<div className='mrl'>
+<div className='mrl' id='Machine' title='Machine Roomless Elevator'>
     <div className='mrl-img'>
     <img src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/MRL-Elevator.png'></img></div>
     <div className='mrl-title'>
@@ -103,13 +109,13 @@ export default function Elevators() {
     </div>
    </div>
    <div className='mrl-ele-img'>
-      <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img>
+   <span title='Elevator Chart'>   <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img></span>
       </div>
       <div className='mrl-ele-img2'>
-    <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p5-2-300x300.jpg'></img>
+      <span title='Lift Well Plan'>  <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p5-2-300x300.jpg'></img></span>
     </div>
 {/* home */}
-<div className='home'>
+<div className='home' id='Homelift' title='Home Eleavator'>
       <div className='home-img'>
     <img src='MRL-Elevator1.png'></img>
     <h3 >CAPACITY 04 TO 20 PASSENGER</h3></div>
@@ -128,15 +134,17 @@ export default function Elevators() {
     <li>Consumes less electricity</li>
     </div>
    <div className='home-ele-img'>
-    <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img>
+   <span title='Elevator Chart'>  <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img></span>
     </div>
     <div className='home-ele-img2'>
-    <img  src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p5-2-300x300.jpg'></img>
+    <span title='Lift Well Plan'> <img  src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p5-2-300x300.jpg'></img></span>
     </div>
     </div>
 
+
+    <button><a href="#top" id="btn"><FaArrowUp/></a></button>
     {/* hydrolic */}
-    <div className='mrl'>
+    <div className='mrl' id='Hydraulic' title='Hydraulic Elevator'>
     <div className='mrl-img'>
     <img src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/Hydraulic-Elevator.png'></img></div>
     <div className='mrl-title'>
@@ -159,15 +167,15 @@ export default function Elevators() {
     <li>Consumes less electricity</li>
     </div>
    
-  <div className='h-ele-img'>
-      <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img>
+  <div className='h-ele-img' >
+  <span title='Elevator Chart'> <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img></span>
       </div>
       <div className='h-ele-img2'>
-    <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p7-5-300x300.jpg'></img>
+      <span title='Drawing'>  <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p7-5-300x300.jpg'></img></span>
     </div>
     </div>
      {/* dumb */}
-    <div className='dumb'>
+    <div className='dumb' id='Waiter' title='Dumbwaiter Elevator'>
       <div className='dumb-img'>
     <img src='Dumbwaiter.png'></img>
     <h3 >CAPACITY 04 TO 20 PASSENGER</h3></div>
@@ -185,16 +193,16 @@ A small freight elevator is often called a dumbwaiter, mostly used for the takin
    
   <div className='dumb-ele-img'>
 
-    <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img>
+  <span title='Elevator chart'>  <img   src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table5.jpg'></img></span>
    </div>
    <div className='dumb-ele-img2'>
-    <img  src='		https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p8-3-300x300.jpg'></img>
+   <span title='drawing'>  <img  src='		https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p8-3-300x300.jpg'></img></span>
     </div>
     </div>
 
 
 {/* pneumatic */}
-<div className='pne'>
+<div className='pne' id='Pneumatic' title='pneumatic Elevator'>
     <div className='pne-img'>
     <img src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/Pneumatic-Elevator.png'></img></div>
     <div className='pne-title'>
@@ -216,10 +224,10 @@ A small freight elevator is often called a dumbwaiter, mostly used for the takin
     </div>
    </div>
    <div className='pne-ele-img'>
-      <img   src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table9.jpg'></img>
+   <span title='Elevator Chart'>  <img   src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/table9.jpg'></img></span>
       </div>
       <div className='pne-ele-img2'>
-    <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p9-1-109x300.jpg'></img>
+      <span title='Drawing'>  <img  src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/p9-1-109x300.jpg'></img></span>
     </div>
     </div>
   )

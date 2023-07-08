@@ -22,13 +22,13 @@ export default function Contact() {
    <div className='boxes'>
 <div className='boxes-1'>
    <div  style={{fontSize:"50px",color:"blueviolet",marginLeft:"130px",marginTop:"20px"}}><FaPhoneAlt/></div>
-<h2 style={{textAlign:"center"}}>Talk to zadec</h2>
-<button className='btn-call' style={{marginLeft:"100px"}}><Link style={{color:"white",textDecoration:"none"}} to={`tel:${+91-8866212899}`}>Call Now</Link></button>
+<h2 style={{textAlign:"center"}}>Talk to Zadec</h2>
+<button className='btn-call' style={{marginLeft:"100px"}}><Link style={{color:"white",textDecoration:"none"}} to={`tel:${+91-7096963666}`}>Call Now</Link></button>
 </div>
 <div className='boxes-2'>
 <div style={{fontSize:"60px",color:"green",marginLeft:"130px",marginTop:"10px"}}><FaWhatsapp/></div>
-<h2 style={{textAlign:"center"}} >chat with Us</h2>
-<button className='btn-call2' style={{marginLeft:"100px"}}><Link style={{color:"white" ,textDecoration:"none"}} to={`https://api.whatsapp.com/send?phone=${+8238677348}&text=${encodeURIComponent("hello")}`} target='_blank'>message</Link></button>
+<h2 style={{textAlign:"center"}} >Chat With Us</h2>
+<button className='btn-call2' style={{marginLeft:"100px"}}><Link style={{color:"white" ,textDecoration:"none"}} to={`https://api.whatsapp.com/send?phone=${7096963666}&text=${encodeURIComponent("hello")}`} target='_blank'>message</Link></button>
 </div>
    </div>
    <h1 className="lets">Let's Find Out</h1>
@@ -64,7 +64,7 @@ Gota, Ahemdabad</p>
        
         <h2>Phone</h2>
         <div style={{color:'black',fontSize:"30px",marginLeft:"20px"}}><FaPhoneAlt/></div>  
-        <p><a style={{color:"black",textDecoration:"none"}} href={`tel:${+91-9876543211}`}>+91-9988776655</a></p>
+        <p><a style={{color:"black",textDecoration:"none"}} href={`tel:${+91-7096963666}`}>+91-7096963666</a></p>
         </div>
       </div>
     </div>

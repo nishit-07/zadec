@@ -5,10 +5,11 @@ export default function Home() {
 
   return (
     <div>
-      <video loop  autoPlay={true} muted={true} style={{ height: '500px', width: '100%',marginTop:"10px" ,pointerEvents:"none"}}>
+      <img src="" alt="" />
+      {/* <video loop  autoPlay={true} muted={true} style={{ height: '500px', width: '100%',marginTop:"10px" ,pointerEvents:"none"}}>
         <source src="Zadec lift open.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
 <div className="container">
         <div className="title">
           <h1>MAKING YOUR MOVEMENT STYLES</h1>
@@ -42,6 +43,7 @@ export default function Home() {
       </div>
       <div className='ele-h'>
         <h1>Zadec Elevators</h1>
+        
         <div className='all-ele'>
           <div className='1-ele-1'>
             <img src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/Passenger-Elevator-Manual.png'></img>

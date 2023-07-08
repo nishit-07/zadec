@@ -1,17 +1,18 @@
 import React from 'react'
-import { FaDotCircle } from 'react-icons/fa'
+import { FaArrowUp } from 'react-icons/fa'
 
 export default function Component() {
+  
   return (
     <div>
      
-    
+     <button><a href="#top" id="btn"><FaArrowUp/></a></button>
   <div className='compo-item'>
   <div className="compo">
         <div className="compo-t">
           <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Components</h1>
           <div className='all-comp'>
-            <p><span ><a href='#first' >Auto Doors</a></span>   <span> - <a href='#second'>manual doors</a></span>   <span> - <a href='#third'>Cabin Design</a></span> <span> - <a href='#fourth'>controller</a></span> <span> - <a href="#fifth">Panel</a></span>  <span> - <a href='#six'>Traction</a></span> <span> - <a href='#seven'>Gear</a></span></p>
+            <p><span ><a href='#AutoDoor' >Auto Doors</a></span>   <span> - <a href='#ManualDoor'>manual doors</a></span>   <span> - <a href='#Cabin'>Cabin Design</a></span> <span> - <a href='#controller'>controller</a></span> <span> - <a href="#panel">Panel</a></span>  <span> - <a href='#Traction'>Traction</a></span> <span> - <a href='#Gear'>Gear</a></span></p>
            
           </div>
         </div>
@@ -21,7 +22,7 @@ export default function Component() {
         </div>
   </div>
    </div>
-   <div className='auto-doors' id='first'>
+   <div className='auto-doors' id='AutoDoor'>
     <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Auto <span style={{color:"red"}}>Doors</span></h1>
       <div className='auto-img'>
         <div className='auto-img1'><img style={{width:"300px",height:"350px"}} src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/a0.jpg'></img>
@@ -55,7 +56,7 @@ export default function Component() {
         </div>
         
    </div>
-   <div className='manu' id='second'>
+   <div className='manu' id='ManualDoor'>
     <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Manual <span style={{color:"red"}}>Doors</span></h1>
       <div className='manu-img-'>
         
@@ -75,7 +76,7 @@ export default function Component() {
         </div>
    </div>
 
-   <div className='cabin' id='third'>
+   <div className='cabin' id='Cabin'>
     <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Cabin <span style={{color:"red"}}>Design</span></h1>
       <div className='cabin1-img'>
         <div className='cabin-img1'><img style={{width:"300px",height:"350px"}} src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/c1-1.jpg'></img>
@@ -114,7 +115,7 @@ export default function Component() {
         
         </div>
    </div>
-   <div className='controller'  id='fourth'>
+   <div className='controller'  id='controller'>
     <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>cont<span style={{color:"red"}}>roller</span></h1>
       <div className='controller1-img'>
         <div className='controller-img1'><img style={{width:"300px",height:"350px"}} src='	https://expresselevators.co/wp-content/uploads/sites/266/2019/09/controller1.jpg'></img>
@@ -128,7 +129,8 @@ export default function Component() {
         <h3>S.S. Telescopic Autodoor</h3></div><br/>
         </div>
    </div>
-   <div className='panel'  id='fifth'>
+   <div className='panel'  id='panel'>
+   <a id="button"></a>
     <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Pa<span style={{color:"red"}}>nel</span></h1>
       <div className='panel-img'>
         <div className='panel-img1'><img style={{width:"300px",height:"350px"}} src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/panel1.png'></img>
@@ -142,7 +144,7 @@ export default function Component() {
         <h3>S.S. Telescopic Autodoor</h3></div><br/>
         </div>
    </div>
-   <div className='traction'  id='six'>
+   <div className='traction'  id='Traction'>
     <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Trac<span style={{color:"red"}}>tion</span></h1>
       <div className='traction-img'>
         <div className='traction-img1'><img style={{width:"300px",height:"350px"}} src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/tmachine1.jpg'></img>
@@ -153,7 +155,7 @@ export default function Component() {
         
         </div>
    </div>
-   <div className='gear'  id='seven'>
+   <div className='gear'  id='Gear'>
     <h1 style={{textShadow: "1px 2px 10px rgba(9, 3, 5, 0.65)"}}>Ge<span style={{color:"red"}}>ar</span></h1>
       <div className='gear-img'>
         <div className='gear-img1'><img style={{width:"300px",height:"350px"}} src='https://expresselevators.co/wp-content/uploads/sites/266/2019/09/gmachine1.jpg'></img>
